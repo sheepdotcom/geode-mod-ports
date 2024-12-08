@@ -1,0 +1,162 @@
+{
+  "geode": "4.0.1",
+  "version": "v0.6.7-alpha.6",
+  "id": "smjs.gdintercept",
+  "name": "GDIntercept",
+  "api": {
+    "include": [
+      "proxy/*.hpp"
+    ]
+  },
+  "developers": [
+    "SMJS",
+    "RobTop"
+  ],
+  "description": "A tool to intercept and modify GD requests.",
+  "links": {
+    "community": "https://discord.gg/VqFpjF5mJe",
+    "source": "https://github.com/SMJSGaming/GDIntercept"
+  },
+  "issues": {
+    "info": "Inform issues through the repository issues page.",
+    "url": "https://github.com/SMJSGaming/GDIntercept/issues"
+  },
+  "tags": [
+    "online",
+    "interface",
+    "utility",
+    "content",
+    "cheats",
+    "developer"
+  ],
+  "gd": {
+    "win": "2.2074",
+    "mac": "2.2074",
+    "android": "2.2074"
+  },
+  "dependencies": [
+    {
+      "id": "geode.custom-keybinds",
+      "version": "1.6.4",
+      "importance": "required",
+      "platforms": [
+        "win",
+        "android64"
+      ]
+    }
+  ],
+  "resources": {
+    "fonts": {
+      "consola": {
+        "path": "resources/consola.ttf",
+        "size": 56
+      }
+    },
+    "spritesheets": {
+      "badges": [
+        "resources/badges/*.png"
+      ],
+      "actions": [
+        "resources/actions/*.png"
+      ]
+    },
+    "sprites": [
+      "resources/*.png"
+    ],
+    "files": [
+      "resources/themes/*.json"
+    ]
+  },
+  "settings": {
+    "code-settings": {
+      "type": "title",
+      "name": "Code Settings",
+      "description": "Settings related to the user interface."
+    },
+    "theme": {
+      "name": "Theme",
+      "description": "The theme of the code block.",
+      "type": "custom:dynamic-enum",
+      "default": "Dark",
+      "save-value": "themes"
+    },
+    "snapping-aggression": {
+      "name": "Snapping Aggression",
+      "description": "The amount of update cycles between each scroll axis lock in the code block.",
+      "type": "int",
+      "default": 10,
+      "min": 1,
+      "max": 100
+    },
+    "censor-data": {
+      "name": "Censor Sensitive Data",
+      "description": "Censors all known sensitive keys in GD and some common sensitive keys.",
+      "type": "bool",
+      "default": true
+    },
+    "raw-data": {
+      "name": "Raw Data",
+      "description": "Displays data in its raw state without any manipulation of the text besides capping the amount of rendered characters.",
+      "type": "bool",
+      "default": false
+    },
+    "minimize-side-menu": {
+      "name": "Minimize Side Menu",
+      "description": "Minimizes the side menu to only show icons.",
+      "type": "bool",
+      "default": true
+    },
+    "list-settings": {
+      "type": "title",
+      "name": "List Settings",
+      "description": "Settings related to the request list."
+    },
+    "filter": {
+      "name": "Filter",
+      "description": "Filters out requests from specific sources.",
+      "type": "string",
+      "default": "None",
+      "one-of": [
+        "None",
+        "Geometry Dash Server",
+        "Geometry Dash CDN",
+        "RobtopGames Server",
+        "Newgrounds CDN",
+        "Geode Server",
+        "Localhost",
+        "Unknown Origin"
+      ]
+    },
+    "hide-badges": {
+      "name": "Hide Badges",
+      "description": "Hides the badge icons in the request list.",
+      "type": "bool",
+      "default": false
+    },
+    "proxy-settings": {
+      "type": "title",
+      "name": "Proxy Settings",
+      "description": "Settings related to the proxy server."
+    },
+    "confirm-pause-between-plays": {
+      "name": "Confirm Pause Between Plays",
+      "description": "If this is enabled, GDI will remember the pause option between session.",
+      "type": "bool",
+      "default": false
+    },
+    "cache-limit": {
+      "name": "Cache Limit",
+      "description": "The amount of requests to cache before removing the oldest one.",
+      "type": "int",
+      "default": 25,
+      "min": 1,
+      "max": 1000
+    },
+    "log-requests": {
+      "name": "Log Requests",
+      "description": "Logs all requests made in the current session to the Geode console.",
+      "type": "bool",
+      "default": false
+    }
+  }
+}

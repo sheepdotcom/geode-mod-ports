@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc GeodeBindings.lib CMakeFiles/GeodeBindings.dir/bindings/Geode/GeneratedSource.cpp.obj
+/usr/bin/llvm-ranlib GeodeBindings.lib

@@ -1,0 +1,3 @@
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/_deps/tuliphook-subbuild/CMakeFiles/tuliphook-populate.dir
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/_deps/tuliphook-subbuild/CMakeFiles/edit_cache.dir
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/_deps/tuliphook-subbuild/CMakeFiles/rebuild_cache.dir

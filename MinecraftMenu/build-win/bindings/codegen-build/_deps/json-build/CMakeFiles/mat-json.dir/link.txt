@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc libmat-json.a "CMakeFiles/mat-json.dir/src/json.cpp.o" "CMakeFiles/mat-json.dir/src/external/dragonbox.cpp.o"
+/usr/bin/llvm-ranlib libmat-json.a

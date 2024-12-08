@@ -1,0 +1,11 @@
+prefix=/home/sheepdotcom/Link to Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen
+exec_prefix=/home/sheepdotcom/Link to Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fmt
+Description: A modern formatting library
+Version: 10.1.0
+Libs: -L${libdir} -lfmt
+Cflags: -I${includedir}
+

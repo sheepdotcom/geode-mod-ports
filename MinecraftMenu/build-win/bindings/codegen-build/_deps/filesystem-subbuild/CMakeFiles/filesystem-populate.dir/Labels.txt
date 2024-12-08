@@ -1,0 +1,14 @@
+# Target labels
+ filesystem-populate
+# Source files and their labels
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/CMakeFiles/filesystem-populate
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/CMakeFiles/filesystem-populate.rule
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/CMakeFiles/filesystem-populate-complete.rule
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-build.rule
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-configure.rule
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-download.rule
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-install.rule
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-mkdir.rule
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-patch.rule
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-test.rule
+/run/media/sheepdotcom/Windows/Users/magic/Documents/GeodeMods/MinecraftMenu/build-win/bindings/codegen-build/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-update.rule

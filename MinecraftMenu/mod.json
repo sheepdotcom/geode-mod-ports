@@ -1,0 +1,43 @@
+{
+	"geode": "4.0.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074"
+	},
+	"version": "v1.1.1",
+	"id": "undefined0.minecraft_menu",
+	"name": "Minecraft Menu",
+	"developer": "undefined0",
+	"description": "geode == fabric basically",
+	"links": {"source": "https://github.com/undefined06855/MinecraftMenu"},
+	"tags": [ "interface" ],
+	"dependencies": [
+		{
+			"id": "shineua.minecraft_splash",
+			"version": ">=1.0.0",
+			"importance": "suggested"
+		}
+	],
+
+	"resources": {
+		"files": [ "resources/mcbtn.png" ]
+	},
+
+	"settings": {
+		"scale": {
+			"name": "GUI scale",
+			"type": "float",
+			"default": 1.5,
+			"min": 0.9,
+			"max": 1.6,
+			"control": {
+				"slider": true
+			}
+		},
+		"btntype": {
+			"name": "Use Minecraft's buttons",
+			"default": false,
+			"type": "bool"
+		}
+	}
+}

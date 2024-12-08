@@ -1,0 +1,54 @@
+Alpha 1 Todo:
+  ✔ @today Add a RobTop API response parser @done(24-06-16 01:08)
+  ✔ @high Convert json objects to strings @done(24-06-16 01:25)
+  ✔ @critical Add a menu icon @done(24-06-19 12:04)
+  ✔ @low Rescale code block text @done(24-06-16 11:06)
+  ✔ @high Rework the about page @done(24-06-19 12:04)
+  ✔ @high Add an icon @done(24-06-19 12:04)
+  ✔ @high Set a touch priority @done(24-06-16 11:08)
+  ✔ @high Replace the rate limit button with a raw data button @done(24-06-17 18:42)
+  ✔ @high Truncase data per line @done(24-06-17 18:42)
+  ✔ @low Add a copy keybind @done(24-06-19 12:04)
+Alpha 2 Todo:
+  ✔ @high Add a settings button @done(24-06-22 13:24)
+  ✔ @low Replace the popup init with initAnchored @done(24-06-22 13:29)
+  ✔ @low Paths overflow in the info section, obscuring the status code @done(24-06-22 19:32)
+  ✔ @today Add a binary view (request from Absolute) @done(24-06-24 22:48)
+Alpha 3 Todo:
+  ✔ @high Add a send button @done(24-07-09 15:34)
+  ✔ @critical Add a pause/resume button @done(24-07-02 23:29)
+  ✔ @high Add more keybinds @done(24-07-10 01:47)
+  ✔ @low Add modding API support @done(24-07-02 15:10)
+  ✔ @high Add mod request support @done(24-07-07 14:45)
+  ✔ @critical Fix pause member not being toggled on resume @done(24-07-07 16:25)
+  ✔ @high Split up requests and responses into a single info object @done(24-07-08 21:00)
+Alpha 4 Todo:
+  ✔ @critical Add node culling @done(24-07-22 22:19)
+  ✔ @critical Add a way to variably limit the amount of requests cached @done(24-07-22 22:19)
+Alpha 5 Todo:
+  ✔ @low Add window ratio support @done(24-07-23 16:19)
+  ✔ @low Rescale path labels @done(24-07-23 16:20)
+  ✔ @low Add badges to the capture cells (e.g. pause, finished, source) @done(24-08-01 18:52)
+  ✔ @critical Add a formatted text to original converter in the converters @done(24-08-04 15:11)
+  ✔ @high Add a copy button to the code block and info block @done(24-08-05 17:39)
+Alpha 6 Todo:
+  ✔ @high Add horizontal scrolling @done(24-08-09 16:54)
+  ✔ @high Rework the code block button menu to turn it into a side menu @done(24-09-05 11:29)
+  ✔ @high Add actions to the side menu to replace the control menu @done(24-09-09 11:47)
+  ✔ @high Add a response header view @done(24-09-05 11:27)
+  ✔ @low Add bracket color support @done(24-09-11 13:48)
+  ✔ @low Add a horizontal scrollbar @done(24-09-12 22:00)
+  ✔ @low Keep line numbers aligned while horizontally scrolling @done(24-09-11 14:36)
+  ✔ @high Rebind keys @done(24-09-13 19:00)
+  ✔ @low Add a way to save requests @done(24-09-09 11:47)
+Release Todo:
+  # I'm sorry but I'm bored and wanna do this
+  ✔ @low Custom theme support @done(24-09-18 20:09)
+  ✔ @high Add bigger versions of the standard themes @done(24-09-20 14:20)
+  ✔ @high Persistant pause warning @done(24-09-19 11:49)
+  ☐ @critical Add inputs to the JSON code block
+  ☐ @critical Pen test all well known mods & GD
+  ☐ @high Fix the comment history response parser
+Nice To Haves:
+  ☐ Add a response time field
+  ☐ Add a text representation to the binary view
