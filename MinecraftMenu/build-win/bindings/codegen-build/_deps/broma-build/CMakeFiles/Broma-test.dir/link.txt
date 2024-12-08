@@ -1,1 +1,0 @@
-/usr/bin/clang++ -O3 -DNDEBUG -rdynamic -Xlinker --dependency-file=CMakeFiles/Broma-test.dir/link.d "CMakeFiles/Broma-test.dir/test/test.cpp.o" -o Broma-test  libBroma.a
